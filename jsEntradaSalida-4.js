@@ -5,5 +5,6 @@
 function Mostar()
 {
 	alert("este es el 4");
+	document.getElementById('elNombre').value="minombre";
 }
 
