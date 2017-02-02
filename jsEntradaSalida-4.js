@@ -4,7 +4,7 @@
 */
 function Mostar()
 {
-	alert("este es el 4");
-	document.getElementById('elNombre').value="minombre";
+	var nombre= prompt("introduzca su nombre");
+	document.getElementById('elNombre').value=nombre;
 }
 
