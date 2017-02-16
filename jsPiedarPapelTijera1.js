@@ -20,6 +20,19 @@ function comenzar()
 function piedra()
 {
 	eleccionMaquina=Math.floor((Math.random() * 3) + 1);
+	if(eleccionMaquina==1)
+	{
+		alert("el adversario elegio: piedra. es un empate");
+	}
+	if(eleccionMaquina==2)
+	{
+		alert("el adversario elegio: papel. usted perdio");
+	}
+	if(eleccionMaquina==3)
+	{
+		alert("el adversario eligio: tijera. usted gano");
+	}
+	/*eleccionMaquina=Math.floor((Math.random() * 3) + 1);
 	switch(eleccionMaquina)
 	{
 		case 1:
@@ -33,12 +46,25 @@ function piedra()
 		case 3:
 		alert("el adversario elegio: " + eleccionMaquina + " ..usted gano");
 		break;
-	}
+	}*/
 
 }//FIN DE LA FUNCIÓN
 function papel()
 {
-	eleccionMaquina=Math.floor((Math.random() * 3) + 1);
+		eleccionMaquina=Math.floor((Math.random() * 3) + 1);
+	if(eleccionMaquina==1)
+	{
+		alert("el adversario elegio: piedra. usted gano");
+	}
+	if(eleccionMaquina==2)
+	{
+		alert("el adversario elegio: papel. es un empate");
+	}
+	if(eleccionMaquina==3)
+	{
+		alert("el adversario eligio: tijera. usted perdio");
+	}
+	/*eleccionMaquina=Math.floor((Math.random() * 3) + 1);
 	switch(eleccionMaquina)
 	{
 		case 1:
@@ -52,14 +78,26 @@ function papel()
 		case 3:
 		alert("el adversario elegio: " + eleccionMaquina + " ...usted perdio");
 		break;
-	}
+	}*/
 
 
 }//FIN DE LA FUNCIÓN
 function tijera()
 {
-	
-	eleccionMaquina=Math.floor((Math.random() * 3) + 1);
+		eleccionMaquina=Math.floor((Math.random() * 3) + 1);
+	if(eleccionMaquina==1)
+	{
+		alert("el adversario elegio: piedra. usted perdio");
+	}
+	if(eleccionMaquina==2)
+	{
+		alert("el adversario elegio: papel. usted gano");
+	}
+	if(eleccionMaquina==3)
+	{
+		alert("el adversario eligio: tijera. es un empate");
+	}
+	/*eleccionMaquina=Math.floor((Math.random() * 3) + 1);
 	switch(eleccionMaquina)
 	{
 		case 1:
@@ -73,7 +111,7 @@ function tijera()
 		case 3:
 		alert("el adversario elegio: " + eleccionMaquina + " ...empate");
 		break;
-	}
+	}*/
 
 
 }//FIN DE LA FUNCIÓN
