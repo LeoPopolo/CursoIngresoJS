@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1493733260 source:d:\popolo.leonardo\parciallaboratorio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint-gcc.h>
+	"estacionamiento.h"
+
+1493731936 d:\popolo.leonardo\parciallaboratorio1\funciones.h
+
+1493732218 source:d:\popolo.leonardo\parciallaboratorio1\funciones.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1493733567 d:\popolo.leonardo\parciallaboratorio1\estacionamiento.h
+
+1493733552 source:d:\popolo.leonardo\parciallaboratorio1\estacionamiento.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"estacionamiento.h"
+
